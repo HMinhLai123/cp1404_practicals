@@ -14,7 +14,7 @@ def main():
     MAX_INCREASE = 0.1  # 10%
     MAX_DECREASE = 0.05  # 5%
     MIN_PRICE = 1
-    MAX_PRICE = 100000.0
+    MAX_PRICE = 100000
     INITIAL_PRICE = 10.0
 
     price = INITIAL_PRICE
@@ -39,7 +39,7 @@ def main():
             print("on day {} price is ${:,.2f}".format(i, price))
             print("${:,.2f}".format(price), file=out_file)
 
-        out_file.close()
+    out_file.close()
 
 
 if __name__ == '__main__':
