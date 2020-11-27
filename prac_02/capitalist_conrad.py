@@ -14,7 +14,7 @@ def main():
     MAX_INCREASE = 0.1  # 10%
     MAX_DECREASE = 0.05  # 5%
     MIN_PRICE = 1
-    MAX_PRICE = 100
+    MAX_PRICE = 100000.0
     INITIAL_PRICE = 10.0
 
     price = INITIAL_PRICE
